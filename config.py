@@ -1,15 +1,15 @@
 import os
 
 class Config:
-    SECRET_KEY = _________***_______"
+    SECRET_KEY = "your-secret-key"
 
-    MYSQL_HOST = "database-1.c2f6wqc0iacj.us-east-1.rds.amazonaws.com"
-    MYSQL_USER = "admin"
-    MYSQL_PASSWORD = "_______***_____"
-    MYSQL_DB = "flask_auth"
+    MYSQL_HOST = "your-mysql-host"
+    MYSQL_USER = "your-mysql-user"
+    MYSQL_PASSWORD = "your-mysql-password"
+    MYSQL_DB = "your-mysql-databaes"
 
     # AWS S3
-    AWS_ACCESS_KEY_ID = "AKIA4DSA4NSFJMGZR4OW"
-    AWS_SECRET_ACCESS_KEY = "_______________***_______________"
-    AWS_BUCKET_NAME = "amzn-sam34556-project-bucket"
-    AWS_REGION = "us-east-1"
+    AWS_ACCESS_KEY_ID = "your-aws-access-key-id"
+    AWS_SECRET_ACCESS_KEY = "your-aws-secret-access-key"
+    AWS_BUCKET_NAME = "your-aws-bucket-name"
+    AWS_REGION = "your-aws-region"
