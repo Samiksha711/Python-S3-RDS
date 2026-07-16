@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    SECRET_KEY = "AKIA4DSA4NSFJMGZR4OW"
+    SECRET_KEY = _________***_______"
 
     MYSQL_HOST = "database-1.c2f6wqc0iacj.us-east-1.rds.amazonaws.com"
     MYSQL_USER = "admin"
